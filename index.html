@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans Portfolio | Web Izstrādātājs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigācija -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Mans<span>Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#sakums">Sākums</a></li>
+                <li><a href="#par-mani">Par mani</a></li>
+                <li><a href="#prasmes">Prasmes</a></li>
+                <li><a href="#projekti">Projekti</a></li>
+                <li><a href="#kontakti">Kontakti</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sākuma sadaļa -->
+    <section id="sakums" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sveiki, esmu <span>Jānis Bērziņš</span></h1>
+                <h2>Front-end izstrādātājs</h2>
+                <p>Es veidoju modernas, funkcionālas un pievilcīgas tīmekļa vietnes</p>
+                <a href="#projekti" class="btn">Mani darbi</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Mans profila attēls">
+            </div>
+        </div>
+    </section>
+
+    <!-- Par mani sadaļa -->
+    <section id="par-mani" class="about">
+        <div class="container">
+            <h2 class="section-title">Par mani</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Esmu pieredzējis web izstrādātājs ar vairāk nekā 5 gadu pieredzi. Specializējos modernu tīmekļa lietojumu izstrādē, izmantojot jaunākās tehnoloģijas.</p>
+                    <p>Mans mērķis ir radīt ne tikai funkcionālus, bet arī lietotājiem draudzīgus un estētiski patīkamus risinājumus.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="about.jpg" alt="Par mani">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prasmju sadaļa -->
+    <section id="prasmes" class="skills">
+        <div class="container">
+            <h2 class="section-title">Manas prasmes</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantiska izmantošana, pieejamība, SEO</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, animācijas, responsīvs dizains</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulācija, asinhronas darbības</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Komponenšu arhitektūra, Hooks, Context API</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projektu sadaļa -->
+    <section id="projekti" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mani projekti</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="E-komercijas projekts">
+                    <div class="project-info">
+                        <h3>E-komercijas veikals</h3>
+                        <p>Pilnībā funkcionāls tiešsaistes veikals ar maksājumu sistēmu</p>
+                        <a href="#" class="btn">Apskatīt</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Portfolio projekts">
+                    <div class="project-info">
+                        <h3>Mākslinieka portfolio</h3>
+                        <p>Interaktīva portfolio lapa māksliniekam ar darbu galeriju</p>
+                        <a href="#" class="btn">Apskatīt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktu sadaļa -->
+    <section id="kontakti" class="contact">
+        <div class="container">
+            <h2 class="section-title">Sazinies ar mani</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Kontaktinformācija</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>janis.berzins@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+371 12345678</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Rīga, Latvija</p>
+                    </div>
+                    
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Vārds" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-pasts" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tava ziņa" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Nosūtīt ziņu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kājene -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mans Portfolio. Visas tiesības aizsargātas.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
